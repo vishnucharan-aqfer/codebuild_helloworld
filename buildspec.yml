@@ -9,7 +9,7 @@ phases:
             - echo "This is our pre-build phase"
     build:
         commands:
-            - echo "The build has started:
+            - echo "The build has started"
             - bash app.sh
     post_build:
         commands:
