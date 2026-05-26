@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+    install:
+        commands:
+            - echo "Installing dependencies"
+    pre_build:
+        commands:
+            - echo "This is our pre-build phase"
+    build:
+        commands:
+            - echo "The build has started:
+            - bash app.sh
+    post_build:
+        commands:
+            - echo "Build has been succesfully completed"
+artifacts:
+    files:
+        - '**/*
